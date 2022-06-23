@@ -35,3 +35,17 @@ copyOfA = 20 // objectA => 20
 // 11. Динамическая типизация
 // JS - динамически типизируемый язык
 
+function a() {
+    console.log('Hey there');
+}
+a() // 'Hey there'
+a = 10
+a() // Uncaught TypeError: a is not a function
+
+// Стрелочная функция
+const a = () => {
+    console.log('Hey there')
+}
+a() // "Hey there"
+a = 10 // TypeError: Assigment to constant variable
+a()
