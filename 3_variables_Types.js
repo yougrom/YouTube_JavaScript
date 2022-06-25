@@ -31,9 +31,27 @@ b = false
 const c = 10
 c = 20 //TypeError: Assignment to consistant variable.
 
+let myName
+console.log(myName);
+myName = 'Yuriy';
+console.log(myName);
 
 // Объявление и присваивание
 let testTest
 console.log(testTest);
 testTest = true
 console.log(testTest);
+
+
+
+// 8 Практика по объявлению переменных
+let myName
+console.log(myName);
+
+myName = 'Yuriy'
+console.log(myName);
+
+
+
+//9. Примитивные типы
+

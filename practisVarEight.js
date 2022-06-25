@@ -21,16 +21,36 @@ const b = 'abc' // значение типа строка
 // symbol — 
 
 
-// 10. Ссылочный тип это объект, называется ссылочным так как при присваивании такого объекта переменной, переменная не хранит сам объект, она хнанит ссылку на объект
+// 10. Ссылочный тип это объект, называется ссылочным так как при присваивании такого объекта переменной, переменная не хранит сам объект, переменная хнанит ссылку на объект
 // object — это набор свойств и каждое свойство состоит из названия и значения свойства
-
+// Значение приметыивных типов хранятся в переменных
 const objectA {
     a: 10,
     b: true
 }
 const copyOfA = objectA
-copyOfA = 20 // objectA => 20
+copyOfA.a = 20 // objectA => 20
+const objectA {
+    a: 20,
+    b: true
+}
+//как добавлять новые свойства к уже существующему объекту
+const objectA {
+    a: 10,
+    b: true
+}
 
+
+const objectA {
+    a: 10,
+    b: true,
+    c: 'abc'
+}
+const copyOfA = objectA
+objectA.c = 'abc'
+console.log(objectA);
+
+//Доступ к свойтвам того или иного объекта возможно с помощью оператора точка .
 
 // 11. Динамическая типизация
 // JS - динамически типизируемый язык
@@ -48,4 +68,24 @@ const a = () => {
 }
 a() // "Hey there"
 a = 10 // TypeError: Assigment to constant variable
-a()
+a()    
+
+
+//My Example
+const gromovStaff = {
+    mouse: 1,
+    watch: 2,
+    macbook: 3
+};
+gromovStaff.mouse = 10;
+
+const copyOfGromovStaff = gromovStaff;
+
+copyOfGromovStaff.iphone = 4;
+copyOfGromovStaff.watch = 10;
+//конструкция - деструкторизация объект
+const {mouse, watch, macbook, iphone} = copyOfGromovStaff;
+console.log(mouse + watch + macbook + iphone);
+
+
+//11. Динамическая типизация
