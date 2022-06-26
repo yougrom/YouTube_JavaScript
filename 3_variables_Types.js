@@ -55,3 +55,28 @@ console.log(myName);
 
 //9. Примитивные типы
 
+/** JS - Динамически типезируемый язык
+ * 
+ * Пример Динамической типизаци
+ */
+
+let a = 10
+a = true
+a = 'Yuriy'
+a = undefined
+
+// Пример 2
+
+function a() {
+    console.log('Hey There');
+}
+a() // 
+
+/** CONST для объявления переменных
+ * Стрелочная функция
+ * */ 
+const a = () => {
+    console.log('Hey There');
+}
+a()//Hey There
+
