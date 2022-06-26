@@ -133,4 +133,14 @@ const myCity = {
     myCity.city // Доступ к значению свойств
     myCity.cityGreeting() // Вызов метода
 
+
     
+    /**
+     * JSON - JavaScript Object Notation
+     * это формат обмена данными между компьютерами в интернете 
+     * 
+     * Чтобы перевести JSON в JavaScript Object используем метод — JSON.parse()
+     * Чтобы перевести JavaScript объект в JSON используем метод — JSON.stringify() 
+     * 
+     * 
+     */
