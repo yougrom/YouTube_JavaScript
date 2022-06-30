@@ -24,31 +24,31 @@ const b = 'abc' // значение типа строка
 // 10. Ссылочный тип это объект, называется ссылочным так как при присваивании такого объекта переменной, переменная не хранит сам объект, переменная хнанит ссылку на объект
 // object — это набор свойств и каждое свойство состоит из названия и значения свойства
 // Значение приметыивных типов хранятся в переменных
-const objectA {
-    a: 10,
-    b: true
-}
-const copyOfA = objectA
-copyOfA.a = 20 // objectA => 20
-const objectA {
-    a: 20,
-    b: true
-}
-//как добавлять новые свойства к уже существующему объекту
-const objectA {
-    a: 10,
-    b: true
-}
+// const objectA {
+//     a: 10,
+//     b: true
+// }
+// const copyOfA = objectA
+// copyOfA.a = 20 // objectA => 20
+// const objectA {
+//     a: 20,
+//     b: true
+// }
+// //как добавлять новые свойства к уже существующему объекту
+// const objectA {
+//     a: 10,
+//     b: true
+// }
 
 
-const objectA {
-    a: 10,
-    b: true,
-    c: 'abc'
-}
-const copyOfA = objectA
-objectA.c = 'abc'
-console.log(objectA);
+// const objectA {
+//     a: 10,
+//     b: true,
+//     c: 'abc'
+// }
+// const copyOfA = objectA
+// objectA.c = 'abc'
+// console.log(objectA);
 
 //Доступ к свойтвам того или иного объекта возможно с помощью оператора точка .
 
