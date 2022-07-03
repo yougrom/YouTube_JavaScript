@@ -116,3 +116,42 @@ const calc = (a, b) => {
     console.log('1');    
     return a + b;
 };
+
+//Mediun example - https://medium.com/nuances-of-programming/%D1%8F-%D0%BD%D0%B8%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D0%B5-%D0%BF%D0%BE%D0%BD%D0%B8%D0%BC%D0%B0%D0%BB-%D0%B7%D0%B0%D0%BC%D1%8B%D0%BA%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B2-javascript-%D1%87%D0%B0%D1%81%D1%82%D1%8C-%D0%BF%D0%B5%D1%80%D0%B2%D0%B0%D1%8F-3c3f02041970
+let a = 3
+function addTwo(x) {
+   let ret = x + 2
+   return ret
+ }
+ let b = addTwo(a)
+ console.log(b);
+
+
+ // Learn Java exaample https://learn.javascript.ru/closure
+// sayHi
+
+let name = "John";
+
+function sayHi() {
+  alert("Hi, " + name);
+}
+name = "Pete";
+sayHi(); 
+
+
+
+function makeWorker() {
+    let name = "Pete";
+  
+    return function() {
+      alert(name);
+    };
+  }
+  
+  let nameNew = "John";
+  
+  // create a function
+  let work = makeWorker();
+  
+  // call it
+  work();
