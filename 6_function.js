@@ -8,11 +8,10 @@ let a = 5
 let b = 3
 function sum(a, b) {
     const c = a + b
-    console.log(c)
+    return c;
 }
-
-sum(a, b) // 8
-
+const rezFunSum = sum(a, b); // 8
+console.log(rezFunSum);
 a = 8
 b = 12
 
@@ -129,3 +128,5 @@ setTimeout(printMyName, 2000)
  * 2. Одна функция должна выполнять одну задачу
  * 3ю Не рекомендуется изменять внешние относительно функции переменные
  */
+
+
